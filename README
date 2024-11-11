@@ -1,6 +1,5 @@
 #Errors produced by installing lvgl and trying to use ThorVG
 
-```
 Building in release mode
 Compiling .pio/build/esp32-s3-devkitc-1/lib24b/lvgl/libs/thorvg/tvgLottieBuilder.cpp.o
 Compiling .pio/build/esp32-s3-devkitc-1/lib24b/lvgl/libs/thorvg/tvgLottieExpressions.cpp.o
@@ -19,4 +18,3 @@ In file included from .pio/libdeps/esp32-s3-devkitc-1/lvgl/src/libs/thorvg/tvgLo
 .pio/libdeps/esp32-s3-devkitc-1/lvgl/src/libs/thorvg/tvgLottieProperty.h: In member function 'LottieColorStop& LottieColorStop::operator=(const LottieColorStop&)':
 .pio/libdeps/esp32-s3-devkitc-1/lvgl/src/libs/thorvg/tvgLottieProperty.h:721:74: error: no match for 'operator=' (operand types are 'ColorStop' and '<brace-enclosed initializer list>')
              const_cast<LottieColorStop&>(other).value = {nullptr, nullptr};
-```
